@@ -4,12 +4,12 @@ module ATDTest
     include OrigenARMDebug
     include OrigenSWD
 
-    def read_register(reg, options={})
+    def read_register(reg, options = {})
       arm_debug.read_register(reg, options)
     end
 
     # As above for write requests
-    def write_register(reg, options={})
+    def write_register(reg, options = {})
       arm_debug.write_register(reg, options)
     end
 

@@ -5,12 +5,12 @@ module ATDTest
 
     # Hook the Nexus module into the register API, any register read
     # requests will use the Nexus by default
-    def read_register(reg, options={})
+    def read_register(reg, options = {})
       nexus.read_register(reg, options)
     end
 
     # As above for write requests
-    def write_register(reg, options={})
+    def write_register(reg, options = {})
       nexus.write_register(reg, options)
     end
 

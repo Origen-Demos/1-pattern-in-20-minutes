@@ -9,7 +9,7 @@ module ATDTest
     end
 
     def instantiate_pins(options = {})
-      add_pin :swd_clk 
+      add_pin :swd_clk
       add_pin :swd_dio
       add_pin :tclk
       add_pin :resetb

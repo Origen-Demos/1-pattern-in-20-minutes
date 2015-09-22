@@ -12,11 +12,11 @@ module ATDTest
         reg.bit 6, :aien
         reg.bit 5, :diff
         reg.bit 4..0, :adch
-      end 
+      end
 
       reg :r, 0x10, size: 32 do |reg|
         reg.bit 15..0, :d
-      end 
+      end
     end
   end
 end
